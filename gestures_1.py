@@ -28,10 +28,10 @@ while cap.isOpened():
 
             if len(landmark_list) != 0:
                 if landmark_list[4][1] < landmark_list[3][1]and landmark_list[8][1] < landmark_list[6][1]:
-                    gesture = "Syntax Sarcasm"
+                    gesture = "Hello Brother"
 
                 elif landmark_list[4][1] > landmark_list[3][1] and landmark_list[8][1] < landmark_list[6][1]:
-                    gesture = "Join the Workshop"
+                    gesture = "How the hell are you ?"
                 else:
                     gesture = None
                 if gesture:
